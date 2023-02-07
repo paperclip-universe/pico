@@ -1,0 +1,19 @@
+{
+  "name": "@usepico/inject-js",
+  "version": "0.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mswjs/interceptors": "^0.17.7"
+  },
+  "type": "module"
+}
