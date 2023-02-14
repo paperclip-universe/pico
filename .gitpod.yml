@@ -1,0 +1,4 @@
+tasks:
+  - command: pnpm install && pnpm run build
+
+
