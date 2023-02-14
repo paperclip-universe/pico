@@ -31,6 +31,14 @@ importers:
     dependencies:
       '@mswjs/interceptors': 0.17.7
 
+  packages/nanojsx:
+    specifiers:
+      htm: ^3.1.1
+      nano-jsx: ^0.0.36
+    dependencies:
+      htm: 3.1.1
+      nano-jsx: 0.0.36
+
 packages:
 
   /@babel/code-frame/7.18.6:
@@ -2006,6 +2014,10 @@ packages:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: true
 
+  /htm/3.1.1:
+    resolution: {integrity: sha512-983Vyg8NwUE7JkZ6NmOqpCZ+sh1bKv2iYTlUkzlWmA5JD2acKoxd4KVxbMmxX/85mtfdnDmTFoNKcg5DGAvxNQ==}
+    dev: false
+
   /htmlnano/2.0.3_svgo@2.8.0:
     resolution: {integrity: sha512-S4PGGj9RbdgW8LhbILNK7W9JhmYP8zmDY7KDV/8eCiJBQJlbmltp5I0gv8c5ntLljfdxxfmJ+UJVSqyH4mb41A==}
     peerDependencies:
@@ -2627,6 +2639,11 @@ packages:
   /mute-stream/0.0.8:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
     dev: true
+
+  /nano-jsx/0.0.36:
+    resolution: {integrity: sha512-pn5LNw75GLmpNUBE8WB1UWN5o8yStvMaXMaFX6p4K8iXph2wwpNfiMCSLccV2VNcPI0hyGv0/mgl0Vh7v9AQfw==}
+    engines: {node: '>=12'}
+    dev: false
 
   /node-addon-api/3.2.1:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
