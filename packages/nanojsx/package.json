@@ -1,7 +1,9 @@
 {
   "name": "@usepico/nanojsx",
   "version": "0.0.1",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
   "source": "src/index.ts",
   "main": "dist/index.js",
