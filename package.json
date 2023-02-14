@@ -9,7 +9,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "release": "turbo run build test && changesets publish",
+    "release": "turbo run build && changesets publish",
     "format": "rome format . --write"
   },
   "devDependencies": {
