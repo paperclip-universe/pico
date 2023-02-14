@@ -1,6 +1,7 @@
 {
   "name": "@usepico/inject-js",
   "version": "0.0.1",
+  "private": false,
   "description": "",
   "source": "src/index.ts",
   "main": "dist/index.js",
