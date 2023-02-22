@@ -1,1 +1,0 @@
-{"mappings":"AAAA,oBAAoB,CAAC,KAAA,EAAE,CAAC,KAAA,OAEvB","sources":["packages/inject-js/src/src/index.ts","packages/inject-js/src/index.ts"],"sourcesContent":[null,"export function add(a, b) {\n  return a + b;\n}\n"],"names":[],"version":3,"file":"index.d.ts.map"}
