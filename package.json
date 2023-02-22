@@ -6,8 +6,10 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "release": "turbo run build && changeset publish",
-    "format": "rome format . --write"
+    "format": "rome format . --write",
+    "ci": "turbo run build lint test"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
