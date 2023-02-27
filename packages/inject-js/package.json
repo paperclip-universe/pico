@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mswjs/interceptors": "^0.21.0"
+    "@mswjs/interceptors": "^0.22.0"
   },
   "type": "module"
 }
