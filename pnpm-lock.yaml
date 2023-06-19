@@ -16,10 +16,10 @@ importers:
         version: 2.8.3
       '@parcel/transformer-typescript-types':
         specifier: ^2.8.3
-        version: 2.8.3(@parcel/core@2.8.3)(typescript@4.9.5)
+        version: 2.8.3(@parcel/core@2.8.3)(typescript@5.0.2)
       msw:
         specifier: ^1.0.0
-        version: 1.0.0(typescript@4.9.5)
+        version: 1.0.0(typescript@5.0.2)
       parcel:
         specifier: ^2.8.3
         version: 2.8.3
@@ -30,8 +30,8 @@ importers:
         specifier: latest
         version: 1.8.8
       typescript:
-        specifier: ^4.9.5
-        version: 4.9.5
+        specifier: ^5.0.0
+        version: 5.0.2
 
   packages/inject-js:
     dependencies:
@@ -1087,7 +1087,7 @@ packages:
       - '@parcel/core'
     dev: true
 
-  /@parcel/transformer-typescript-types@2.8.3(@parcel/core@2.8.3)(typescript@4.9.5):
+  /@parcel/transformer-typescript-types@2.8.3(@parcel/core@2.8.3)(typescript@5.0.2):
     resolution: {integrity: sha512-zjsJsgecjw4X1nt5R7A61uWwzwCce0usKKPqnE5tQpYtF4FfK5X69r0l5JLovlyaT2uwoe+hvhu2AELA0kKRQA==}
     engines: {node: '>= 12.0.0', parcel: ^2.8.3}
     peerDependencies:
@@ -1096,22 +1096,22 @@ packages:
       '@parcel/diagnostic': 2.8.3
       '@parcel/plugin': 2.8.3(@parcel/core@2.8.3)
       '@parcel/source-map': 2.1.1
-      '@parcel/ts-utils': 2.8.3(typescript@4.9.5)
+      '@parcel/ts-utils': 2.8.3(typescript@5.0.2)
       '@parcel/utils': 2.8.3
       nullthrows: 1.1.1
-      typescript: 4.9.5
+      typescript: 5.0.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
 
-  /@parcel/ts-utils@2.8.3(typescript@4.9.5):
+  /@parcel/ts-utils@2.8.3(typescript@5.0.2):
     resolution: {integrity: sha512-4HMt9B9LF2pDFvSKGImho48tlCvCUl7ly1ZMXvQdmEq2i0yoS81tDsmxX3yly/RVUVeUCGAj1JRuuy1lw5zw1A==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       typescript: '>=3.0.0'
     dependencies:
       nullthrows: 1.1.1
-      typescript: 4.9.5
+      typescript: 5.0.2
     dev: true
 
   /@parcel/types@2.8.3(@parcel/core@2.8.3):
@@ -2694,7 +2694,7 @@ packages:
     optionalDependencies:
       msgpackr-extract: 3.0.0
 
-  /msw@1.0.0(typescript@4.9.5):
+  /msw@1.0.0(typescript@5.0.2):
     resolution: {integrity: sha512-8QVa1RAN/Nzbn/tKmtimJ+b2M1QZOMdETQW7/1TmBOZ4w+wJojfxuh1Hj5J4FYdBgZWW/TK4CABUOlOM4OjTOA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -2723,7 +2723,7 @@ packages:
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.4.6
       type-fest: 2.19.0
-      typescript: 4.9.5
+      typescript: 5.0.2
       yargs: 17.6.2
     transitivePeerDependencies:
       - encoding
@@ -3576,9 +3576,9 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 
