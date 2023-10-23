@@ -15,7 +15,7 @@
     "@changesets/cli": "^2.26.0",
     "@parcel/core": "^2.8.3",
     "@parcel/transformer-typescript-types": "^2.8.3",
-    "msw": "^1.0.0",
+    "msw": "^2.0.0",
     "parcel": "^2.8.3",
     "rome": "latest",
     "turbo": "latest",
